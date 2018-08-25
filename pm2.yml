@@ -1,0 +1,3 @@
+apps:
+  - script: src/app.js
+    name: correios-rest-api

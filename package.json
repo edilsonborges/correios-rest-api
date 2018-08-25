@@ -1,0 +1,31 @@
+{
+  "name": "correios-rest-api",
+  "version": "1.0.0",
+  "description": "API REST para rastreamento de pacotes/objetos enviados via Correios",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edilsonborges/correios-rest-api.git"
+  },
+  "author": "Edilson Borges <edilsonfb@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "request": "^2.88.0"
+  },
+  "bugs": {
+    "url": "https://github.com/edilsonborges/correios-rest-api/issues"
+  },
+  "homepage": "https://github.com/edilsonborges/correios-rest-api#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf dist && mkdir dist",
+    "start": "pm2 start pm2.yml",
+    "stop": "pm2 stop pm2.yml",
+    "delete": "pm2 delete pm2.yml",
+    "restart": "pm2 restart pm2.yml"
+  }
+}
